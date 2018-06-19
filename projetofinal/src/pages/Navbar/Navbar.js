@@ -1,5 +1,4 @@
 import React from 'react'
-// import logomobile from './logomobile.jpg'
 import logo from './logoweb.jpg'
 import './Navbar.css'
 import { Link } from 'react-scroll'

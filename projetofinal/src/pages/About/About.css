@@ -1,7 +1,8 @@
 .about{
     position: relative;
     z-index: -1;
-    top: 0px;
-    background-color: rgb(43, 137, 226);
+    top: 50px;
     height: 300px;
+    text-align: center;
+    padding-top:30px;
 }

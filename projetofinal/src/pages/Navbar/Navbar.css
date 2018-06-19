@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 60px;
+    padding: 0.5rem;
+    border-bottom: 1px solid #d4dadf;
+    box-shadow: 0 1px 1px 0 #f0f1f4;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    }
+
+    .topbar li{
+        display: inline;
+        list-style: none;
+        padding: 2rem 2rem 0;
+
+     }
+     .navbar__logo {
+        display: block;
+        width: 200px;
+        padding: 0 5rem;
+    }

@@ -1,0 +1,12 @@
+.home{
+    position: relative;
+    z-index: -1;
+    left: 0;
+    padding-top: 55px;
+       
+}
+
+.bgimg{
+    width: 100vw;
+    height: 100%;
+}

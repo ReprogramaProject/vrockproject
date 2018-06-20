@@ -8,30 +8,26 @@ import { Element } from 'react-scroll'
 
 
 class App extends Component {
-  
   render() {
     return (
       <div>
         <Navbar />
 
-        <Element name="home">
-     
+        <Element name="home-element">
           <Home />
         </Element>
 
-              
-        <Element name="about">
+        <Element name="about-element">
           <About />
         </Element>
 
-        <Element name="galery">
+        <Element name="galery-element">
           <Galery />
         </Element>
-        
-        <Element name="contact">
-            <Contact />
+
+        <Element name="contact-element">
+          <Contact />
         </Element>
-        
       </div>
     );
   }

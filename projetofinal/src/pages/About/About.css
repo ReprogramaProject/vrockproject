@@ -1,8 +1,22 @@
 .about{
     position: relative;
-    z-index: -1;
-    top: 50px;
-    height: 300px;
+    top: 15px;
+    left: 0;
+    height: 500px;
     text-align: center;
-    padding-top:30px;
+    padding-top:50px;
+}
+
+.about__flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.description{
+    width: 400px;
+}
+.img__vrock{
+    width: 400px;
 }

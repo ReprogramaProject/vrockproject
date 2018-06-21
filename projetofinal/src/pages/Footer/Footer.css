@@ -1,11 +1,25 @@
 .footer{
     position: relative;
-    top: 20px;
-    left: 0;
-    height: 300px;
+    top: 10px;
+    height: 150px;
     text-align: center;
     padding-top:50px;
     background-color: rgb(15, 15, 15);
-    padding-top: 50px;
-    height: 150px;
+    color: #5f5f59;
+ }
+.footer___align{
+    padding-left: 43%;
+}
+
+ .footer___list{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    
+}
+
+.media__link > a{    
+    padding-right:10px;
+    font-size: 30px; 
+    color: #5f5f59;
 }

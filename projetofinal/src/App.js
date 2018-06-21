@@ -1,39 +1,18 @@
-import React, { Component } from 'react';
-import Navbar from './pages/Navbar/Navbar'
-import Home from './pages/Home/Home'
-import About from './pages/About/About'
-import Galery from './pages/Galery/Galery'
-import Contact from './pages/Contact/Contact'
-import Footer from './pages/Footer/Footer'
-import { Element } from 'react-scroll'
-
+import React, { Component } from 'react'
+import Land from './pages/Land/Land'
+import moreabout from './pages/moreabout/moreabout'
+import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
+      <div className="App">
 
-        <Element name="home-element">
-          <Home />
-        </Element>
-
-        <Element name="about-element">
-          <About />
-        </Element>
-
-        <Element name="galery-element">
-          <Galery />
-        </Element>
-
-        <Element name="contact-element">
-          <Contact />
-        </Element>
-
-        <Element name="footer-element">
-          <Footer />
-        </Element>
-      </div>
+        <Switch>
+         <Route exact path = '/' component={Land}/>
+         <Route path="/moreabout" component={moreabout} />
+      </Switch>
+    </div>
     );
   }
 }

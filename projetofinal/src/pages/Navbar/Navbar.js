@@ -14,8 +14,7 @@ function Navbar(props) {
             <ul className="navbar__links">                 
                 <li><Link to="home-element" smooth={true} duration={1000}>Home </Link></li>    
                 <li><Link to="about-element" smooth={true} duration={1000}>Sobre </Link></li>    
-                <li><Link to="galery-element" smooth={true} duration={1000}>Galeria </Link></li>
-                <li><Link to="contact-element" smooth={true} duration={1000}>Contato </Link></li>       
+                <li><Link to="galery-element" smooth={true} duration={1000}>Galeria </Link></li>   
             </ul>
         </nav>
     )

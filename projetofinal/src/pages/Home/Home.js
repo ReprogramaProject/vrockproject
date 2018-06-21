@@ -35,7 +35,7 @@ class Home extends React.Component {
                         </div>
                         <div>
                             <img className="home__imagem" src={arkeo360} alt="Acervo 360º" />
-                        </div>
+                        </div>                    
                     </Slider>
                 </div>
             </div>

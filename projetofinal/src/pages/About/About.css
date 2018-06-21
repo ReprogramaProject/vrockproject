@@ -2,7 +2,7 @@
     position: relative;
     top: 15px;
     left: 0;
-    height: 500px;
+    height: 600px;
     text-align: center;
     padding-top:50px;
 }
@@ -18,5 +18,32 @@
     width: 400px;
 }
 .img__vrock{
-    width: 400px;
+    width: 500px;
+}
+
+.socialmedia___list{
+    cursor: pointer;
+    display: flex;
+    list-style: none;    
+}
+
+.socialmedia___link > a{
+    color: #5f5f59;
+    padding-right:10px;
+    font-size: 30px;  
+}
+
+.oculus{
+    display: flex;
+    align-items: center;
+}
+
+.oculus___acss{
+    list-style: none;
+    text-decoration: none;
+    color:  #181817;
+    padding: 5px 10px;
+}
+.oculus___acss:hover {
+    background-color: #d0e22b;
 }

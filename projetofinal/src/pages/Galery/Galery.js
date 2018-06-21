@@ -15,22 +15,22 @@ class Galery extends React.Component{
                 <div className="galery___flex">  
                     <div>
                         <div> 
-                            <a href="#"> <img className="galeria__vrock" src={rupestre} alt="galeria__vrock" /> </a>                            
+                            <a href=""> <img className="galeria__vrock" src={rupestre} alt="galeria__vrock" /> </a>                            
                         </div>
                     
                         <div> 
-                            <a href="#"> <img className="galeria__vrock" src={cavernas} alt="galeria__vrock" /> </a>                            
+                            <a href=""> <img className="galeria__vrock" src={cavernas} alt="galeria__vrock" /> </a>                            
                         </div>
                     
                     </div>
 
                     <div>
                         <div> 
-                            <a href="#"> <img className="galeria__vrock" src={arquitetura} alt="galeria__vrock" /> </a>                            
+                            <a href=""> <img className="galeria__vrock" src={arquitetura} alt="galeria__vrock" /> </a>                            
                         </div>
                     
                         <div> 
-                            <a href="#"> <img className="galeria__vrock" src={paisagens} alt="galeria__vrock" /> </a>                            
+                            <a href=""> <img className="galeria__vrock" src={paisagens} alt="galeria__vrock" /> </a>                            
                         </div>
                     
                     </div>

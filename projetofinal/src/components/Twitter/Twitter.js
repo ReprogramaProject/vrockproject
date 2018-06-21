@@ -1,5 +1,6 @@
 // import React from 'react'
-// import './Twitter.css'
+// import Twit from 'twit'
+
 
 // function Twitter (props) {
 //     const Twit = require('twit')
@@ -9,10 +10,11 @@
 //       consumer_secret: '<J1m5baxUnjpJKRxnGkif054zJcFXqUgFbeYzjf5ETpMmSCpJeK>',
 //       access_token: '<J1m5baxUnjpJKRxnGkif054zJcFXqUgFbeYzjf5ETpMmSCpJeK>',
 //       access_token_secret: '<J1m5baxUnjpJKRxnGkif054zJcFXqUgFbeYzjf5ETpMmSCpJeK>'
-//       access_token_secret: '<J1m5baxUnjpJKRxnGkif054zJcFXqUgFbeYzjf5ETpMmSCpJeK>'
+   
+  
 //     })
     
-//     module.exports = exports = () => {
+//     module = {exports: {} }  => {
 //       console.log('Getting Twitter posts.')
 //       return T.get(
 //         '/search/tweets.json',
@@ -21,13 +23,14 @@
 //       .catch(err => console.log("Error getting latest tweets." + "oiiii", err))
 //       .then(
 //         res => {
-//           if (!res.data.errors) {
-//             // SUCESSO
-//             console.log('Twitter:' + data.length)
-//             return data
-//           } else {
-//             console.log("Error getting latest tweets.", err)    
-//           }
+//             console.log (res)
+//         //   if (!res.data.errors) {
+//         //     // SUCESSO
+//         //     console.log('Twitter:' + data.length)
+//         //     return data
+//         //   } else {
+//         //     console.log("Error getting latest tweets.", err)    
+//         //   }
 //         },
 //         err => console.log("Error getting latest tweets.", err)
 //       )

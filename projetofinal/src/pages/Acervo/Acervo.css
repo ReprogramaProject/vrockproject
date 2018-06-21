@@ -1,4 +1,4 @@
-.galery{
+.acervo{
     position: relative;
     top: 15px;
     left: 0;
@@ -8,7 +8,9 @@
     background-color: rgb(208, 226, 43);
     padding-top: 50px; 
     color: #5f5f59;
+    
 }
+
 
 .galery___flex{
     display: flex;
@@ -21,4 +23,3 @@
     padding: 20px 20px;
 
 }
- 

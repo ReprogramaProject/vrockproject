@@ -1,4 +1,4 @@
-.navbar {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,26 +13,30 @@
     border-bottom: 1px solid #d4dadf;
     background-color: #ffffff;
     box-shadow: 0 1px 1px 0 #f0f1f4;
+    text-decoration: none;
 }
 
-.navbar__logo {
+.menu__logo {
     cursor: pointer;
     display: block;
     width: 200px;
 }
 
-.navbar__links {
+.menu__links {
     cursor: pointer;
     display: flex;
-    padding: 0;
-    margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
-.navbar__links li + li {
+.menu__links li + li {
     margin-left: 1rem;
+    text-decoration: none;
 }
-
-.navbar__links li:hover {
+.menu__stubborn a{
+    text-decoration: none;
+    color: black;
+}
+.menu__stubborn:hover {
     text-decoration: underline#590572;
 }

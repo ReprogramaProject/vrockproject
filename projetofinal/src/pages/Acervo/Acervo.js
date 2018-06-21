@@ -1,17 +1,17 @@
 import React from 'react'
-import './Galery.css'
+import './Acervo.css'
 import { Link } from 'react-router-dom'
 import rupestre from './rupestre.png'
 import cavernas from './cavernas.png'
 import arquitetura from './arquitetura.png'
 import paisagens from './paisagens.png'
 
-class Galery extends React.Component{
+class Acervo extends React.Component{
 
     render() {
         
         return (
-            <div className="galery">            
+            <div className="acervo">            
                 <h2> Galeria VRock </h2>
                 <div className="galery___flex"> 
 
@@ -53,4 +53,4 @@ class Galery extends React.Component{
 
 }
 
-export default Galery
+export default Acervo

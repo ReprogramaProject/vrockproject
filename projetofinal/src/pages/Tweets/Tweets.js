@@ -11,7 +11,7 @@ class Twitter extends React.Component {
     }
 
     componentDidMount() {
-        apiTwitter.searchTweets('kanye')
+        apiTwitter.searchTweets('vrock360')
             .then(response => {
                 this.setState({ 
                     statuses: response.data.statuses, 

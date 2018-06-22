@@ -27,7 +27,7 @@ class About extends React.Component{
 
                             <div className="oculus">
                                 <div> 
-                                    <a href="https://github.com/ReprogramaProject/ArkeVRock">
+                                    <a href="">
                                         <img className="oculus___link" src={oculus} alt="oculus" />
                                     </a>
                                 </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import './Paisagens.css'
+import Menu from '../../components/Menu/Menu'
+import Tweets from '../Tweets/Tweets'
 
 
 class Paisagens extends React.Component{
@@ -9,13 +11,10 @@ class Paisagens extends React.Component{
         
         return (
             <div className="paisagens">
-            
-                <div className="container">
-                
-                </div>           
-             
-             
-          
+                <Menu />
+
+                <div className="paisagens"> <Tweets /> </div>  
+
             </div>
         )
     }

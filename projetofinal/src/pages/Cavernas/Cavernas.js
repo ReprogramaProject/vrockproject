@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import './Cavernas.css'
 import Menu from '../../components/Menu/Menu'
-import Footer from '../../components/Footer/Footer'
-import Twitter from '../../components/Twitter/Twitter'
-
+import Tweets from '../Tweets/Tweets'
 
 
 
@@ -16,10 +14,9 @@ class Cavernas extends Component {
         
             <div className="cavernas">
               <Menu />
-              
-              <Twitter />
 
-              <Footer />
+                 <div className="cave"> <Tweets /> </div>  
+
             </div>
         )
     }

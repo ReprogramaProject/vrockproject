@@ -1,6 +1,7 @@
 import React from 'react'
 import './Arquitetura.css'
-
+import Menu from '../../components/Menu/Menu'
+import Tweets from '../Tweets/Tweets'
 
 class Arquitetura extends React.Component{
     
@@ -9,13 +10,8 @@ class Arquitetura extends React.Component{
         
         return (
             <div className="arquitetura">
-            
-                <div className="container">
-                
-                </div>           
-             
-             
-          
+                <Menu />
+                <div className="cave"> <Tweets /> </div>                    
             </div>
         )
     }

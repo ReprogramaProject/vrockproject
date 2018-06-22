@@ -1,5 +1,59 @@
+
 .moreabout{
     top: 30px;
     text-align: center;
     text-decoration: none;
+ }
+
+.img_moreabout{
+    width: 400px;
+    padding: 90px 50px 90px 180px;
+}
+
+.manifesto{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 90px
+}
+
+.manifesmanifesto___paragrafo, p{
+    width: 500px;
+   }
+
+
+.chamada{
+    width: 600px;
+    padding: 20px 500px 10px 350px;
+    color: #5f5f59;
+}
+.row{
+    width: 800px;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+ 
+}
+
+.cardboxh3{
+width: 900px;
+}
+
+.oculus{
+    display: flex;
+    align-items: center;
+}
+
+.oculus___acss{
+    list-style: none;
+    text-decoration: none;
+    color:  #181817;
+    padding: 5px 10px;
+}
+.oculus___acss:hover {
+    background-color: #d0e22b;
 }

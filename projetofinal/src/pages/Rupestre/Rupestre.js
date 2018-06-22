@@ -1,5 +1,7 @@
 import React from 'react'
-import './Rupestre.css'
+import './Paisagens.css'
+import Menu from '../../components/Menu/Menu'
+import Tweets from '../Tweets/Tweets'
 
 
 class Rupestre extends React.Component{
@@ -9,17 +11,14 @@ class Rupestre extends React.Component{
         
         return (
             <div className="rupestre">
-            
-                <div className="container">
-                
-                </div>           
-             
-             
-          
+                <Menu />
+
+                <div className="rupestre"> <Tweets /> </div>  
+
             </div>
         )
     }
 
 }
 
-export default Rupestre
+export default PaisRupestreagens

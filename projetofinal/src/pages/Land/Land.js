@@ -1,20 +1,16 @@
 import React, { Component } from 'react'
-import Navbar from '../Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 import Home from '../Home/Home'
 import About from '../About/About'
 import Galery from '../Galery/Galery'
-import Footer from '../../components/Footer/Footer'
 import { Element } from 'react-scroll'
 
 class Land extends Component {
   render() {
     return (
       <div>
-        
-        <Navbar />
-
         <Element name="home-element">
-            <Home />
+          <Home />
         </Element>
 
         <Element name="about-element">
@@ -22,12 +18,10 @@ class Land extends Component {
         </Element>
 
         <Element name="galery-element">
-        <Galery />
+          <Galery />
         </Element>
-
+        
         <Footer />
-
-
       </div>
     );
   }

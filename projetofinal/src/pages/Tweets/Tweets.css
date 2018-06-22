@@ -1,0 +1,11 @@
+.tweets {
+    padding: 0.5rem 2rem;
+    margin-top: calc(66px + 1rem);
+}
+
+.tweets_loading {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+}

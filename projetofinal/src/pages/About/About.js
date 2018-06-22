@@ -32,7 +32,7 @@ class About extends React.Component{
                                     </a>
                                 </div>
                                 <div>                              
-                                    <a className="oculus___acss" href="https://anselm.github.io/aterrain/examples/helloworld/tile.html" target="_blank">
+                                    <a className="oculus___acss" href="https://anselm.github.io/aterrain/examples/helloworld/tile.html" target="_blank" rel="noopener noreferrer">
                                       Acesse e faça um tour pela Realidade Virtual.
                                     </a>
                                 </div>                            
@@ -69,7 +69,7 @@ class About extends React.Component{
 
                         <div>
                             <div> 
-                                <a href="https://sketchfab.com/models/2a32a7cca3424109a54704e623d6a421" target= "_blank"> <img className="img__vrock" src={img} alt="Logo" /> </a>
+                                <a href="https://sketchfab.com/models/2a32a7cca3424109a54704e623d6a421" target="_blank" rel="noopener noreferrer"> <img className="img__vrock" src={img} alt="Logo" /> </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 </p>                            
                             </div>

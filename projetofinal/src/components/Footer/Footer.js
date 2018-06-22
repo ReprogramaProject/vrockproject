@@ -8,23 +8,31 @@ import FaPinterestP from 'react-icons/lib/fa/pinterest'
 function Footer (props) {
     return (
         <div className="footer">
+
         <div className="footer___align">
-            <ul className="footer___list"> 
-                <li className="media__link">
-                    <a href="https://github.com/ReprogramaProject/ArkeVRock"><FaInstagram /></a>
-                </li>
 
-                <li className="media__link">
-                    <a href="https://twitter.com/vrock360/"><FaTwitter />
-                    </a>
-                </li>    
+            <div>
+                <ul className="footer___list"> 
+                    <li className="media__link">
+                    <a href="https://www.instagram.com/vrock360/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                    </li>
 
-                <li className="media__link">
-                    <a href="https://github.com/ReprogramaProject/ArkeVRock"><FaPinterestP /></a>
-                </li>
-            </ul>                        
+                    <li className="media__link">
+                        <a href="https://twitter.com/vrock360/" target="_blank" rel="noopener noreferrer"><FaTwitter />
+                        </a>
+                    </li>    
+
+                    <li className="media__link">
+                        <a href=""><FaPinterestP /></a>
+                    </li>
+                </ul>
+            </div> 
+            <div>
+                <p> © 2018 | VROCK by @wwwbrunagon |  All rights reserved </p>    
+            </div>
+
         </div>
-        <p> © 2018 | VROCK by @wwwbrunagon |  All rights reserved </p>                   
+                       
                         
 
     </div>

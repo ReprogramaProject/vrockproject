@@ -12,7 +12,7 @@ class Galery extends React.Component{
         
         return (
             <div className="galery">            
-                <h2> Galeria VRock </h2>
+                <h1> Galeria VRock </h1>
                 <div className="galery___flex"> 
 
                     <div>

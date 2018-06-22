@@ -15,7 +15,7 @@ class Acervo extends React.Component{
         return (
             <div className="acervo">
                 <Menu />            
-                    <h2> Galeria VRock </h2>
+                    <h1> Galeria VRock </h1>
                     <div className="galery___flex"> 
 
                         <div>

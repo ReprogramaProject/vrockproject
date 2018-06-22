@@ -20,11 +20,11 @@ class About extends React.Component{
                     <h2>Olá, quem bom te ver por aqui! </h2>
                     
                     <div className="about__flex">
-                        <div className="description"> 
-                            <h3>VROCK - Arke0360º</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                        <div className="description___about"> 
+                            <h3>VROCK</h3>
+                            <p> Uma plataforma de Mixed Realities acessível, que tem a intenção difundir um acervo de imagens e vídeos 360º de elementos arqueológicos, geológicos, e arquitetônicos, pois acreditamos que é uma contribuição para educação e preservação. vocês visualizarem em 360º os sítios arqueológicos, geológicos e elementos arquitetônicos. 
+                            A ideia surgiu da paixão pela Mixed Realities, ou realidade mista (MR), às vezes chamada de realidade híbrida, e poder criar a fusão de mundos real e virtual para produzir novos ambientes e visualizações onde esse mundo arqueo/geológico e digitais tivessem a chance de coexistir.
+                            </p>
                             <div className="oculus">
                                 <div> 
                                     <a href="">
@@ -39,29 +39,29 @@ class About extends React.Component{
                            </div>
 
                             <div className="description"> 
-                                <p>Lorem ipsum dolor sit amet </p>
+                                <p>Acesse nossas mídias e compartilhe suas imagens! </p>
 
                                  
                                  <Link to="/moreabout">
-                                        <button className='button'> SAIBA MAIS </button>
+                                        <button className='botao'> SAIBA MAIS </button>
                                 </Link>
 
                                 
                             </div>
 
                         <div>
-                                <ul className="socialmedia___list"> 
+                            <ul className="socialmedia___list"> 
                                     <li className="socialmedia___link ">
-                                        <a href="https://github.com/ReprogramaProject/ArkeVRock"><FaInstagram /></a>
+                                        <a href="https://www.instagram.com/vrock360/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                                     </li>
 
-                                    <li className="socialmedia___link ">
-                                        <a href="https://twitter.com/vrock360/"><FaTwitter />
+                                    <li className="socialmedia___link">
+                                        <a href="https://twitter.com/vrock360/" target="_blank" rel="noopener noreferrer"><FaTwitter />
                                         </a>
                                     </li>    
 
                                     <li className="socialmedia___link">
-                                        <a href="https://github.com/ReprogramaProject/ArkeVRock"><FaPinterestP /></a>
+                                        <a href=""><FaPinterestP /></a>
                                     </li>
                                 </ul>                        
                             </div>
@@ -69,8 +69,9 @@ class About extends React.Component{
 
                         <div>
                             <div> 
-                                <a href="https://sketchfab.com/models/2a32a7cca3424109a54704e623d6a421" target="_blank" rel="noopener noreferrer"> <img className="img__vrock" src={img} alt="Logo" /> </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                <a href="https://sketchfab.com/models/2a32a7cca3424109a54704e623d6a421" target="_blank" rel="noopener noreferrer"> <img className="img__vrockAbout" src={img} alt="Logo" /> </a>
+                                <p className="pabout" > Rolling Drone - Amigo da arqueologia (render image). <br/>
+                                Clique na imagem acima para um tour arqueológico!
                                 </p>                            
                             </div>
                             

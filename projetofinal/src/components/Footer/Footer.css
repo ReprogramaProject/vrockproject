@@ -1,5 +1,4 @@
 .footer{
-    position: relative;
     top: 10px;
     height: 150px;
     text-align: center;
@@ -8,14 +7,15 @@
     color: #5f5f59;
  }
 .footer___align{
-    padding-left: 43%;
+    padding-left:450px;
 }
+
 
  .footer___list{
     cursor: pointer;
     display: flex;
-    list-style: none;
-    
+    list-style: none; 
+    padding-left:200px;   
 }
 
 .media__link > a{    

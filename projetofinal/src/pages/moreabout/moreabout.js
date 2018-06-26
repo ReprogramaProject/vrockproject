@@ -36,13 +36,13 @@ class Moreabout extends Component {
                         </p>
                     </div>
                 </div>
-                <hr className="row"/>
+
                 <div className="chamada">
                     <div>  
-                        <h1> Realidade Virtual pode apoiar preservação do ambiente e da cultura e ser uma grande aliada da educação! </h1>
+                        <h1> Já pensou na Realidade Mista como ferrmenta de preservação ambiental? <br/>Grande aliada da educação! </h1>
                     </div>
                 </div>
-                <hr className="row"/>
+
                     <div className="manifesto">
                         <div>
                             <img className="img_moreabout" src={vrock__diy} alt="vrock" />
@@ -70,7 +70,7 @@ class Moreabout extends Component {
                         
                     </div>
                   
-                    <div className="chamada2">
+                    <div className="chamada">
                         <div>  
                             <h2> Buscamos parceiros que queiram desenvolver imagens/videos e animação 3D para contribuir com nossa plataforma. </h2>
                         </div>
@@ -78,11 +78,13 @@ class Moreabout extends Component {
                 
 
                     <div className="cardboxMabout">
-                        <div className="cardboxMabout">
                             <div>
-                                 <h2> Crie seu próprio Cardbox</h2>
-                            </div>
+                                <div>
+                                     <h2> Crie seu próprio Cardbox</h2>
+                                </div>
+                          
                             <div className="oculusMabout">
+                            
                                 <div> 
                                     <a href="">
                                     <img className="oculusMabout___link" src={oculus} alt="oculus" />
@@ -91,15 +93,18 @@ class Moreabout extends Component {
                                 </div>
                                 <div>                              
                                     <a className="oculusMabout___acss" href="https://vr.google.com/intl/pt-BR_pt/cardboard/get-cardboard/" target="_blank" rel="noopener noreferrer">
-                                    Navegue pela Realidade Virtual.
-                                    </a>
-                                </div>                            
+                                       Desenvolva seu próprio visor!
+                                    </a>                                                                          
+                                </div>
+             
                             </div>
+                            
+                            
                         </div> 
 
                         <div>
                             <a href="https://vr.google.com/intl/pt-BR_pt/cardboard/get-cardboard/" target="_blank" rel="noopener noreferrer">
-                            <img className="img_gcardMabou" src={vrock__gcard} alt="vrock" />
+                            <img className="img_gcardMabout" src={vrock__gcard} alt="vrock" />
                             </a>
                         </div>
                                                        

@@ -36,3 +36,14 @@
 .navbar__links li:hover {
     text-decoration: underline#590572;
 }
+
+@media (max-width: 550px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .navbar__links {
+        padding: 20px 30px;
+    }
+}

@@ -29,7 +29,7 @@ class Home extends React.Component {
                     <Slider {...settings}>
                         <div>
 
-                        <a href="https://anselm.github.io/aterrain/examples/place/index.html#lat=36.57850&lon=-118.29226&elev=1000" target="_blank" rel="noopener noreferrer">
+                        <a href="https://anselm.github.io/aterrain/examples/helloworld/tile.html" target="_blank" rel="noopener noreferrer">
                             <img className="home__imagem" src={arkeovr} alt="Visualizar elementos arquitetônicos" /> 
                         </a>
 
@@ -46,7 +46,7 @@ class Home extends React.Component {
 
                         <div>
                        
-                        <a href=" https://aframe.io/examples/showcase/sky/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://anselm.github.io/aterrain/examples/place/index.html#lat=36.57850&lon=-118.29226&elev=1000" target="_blank" rel="noopener noreferrer">
                             <img className="home__imagem" src={arkeo360} alt="Acervo 360º" />
                         </a>
                         </div>                    

@@ -22,7 +22,7 @@ class About extends React.Component{
                     <div className="about__flex">
                         <div className="description___about"> 
                             <h3>VROCK</h3>
-                            <p> Uma plataforma de Mixed Realities acessível, que tem a intenção difundir um acervo de imagens e vídeos 360º de elementos arqueológicos, geológicos, e arquitetônicos, pois acreditamos que é uma contribuição para educação e preservação. vocês visualizarem em 360º os sítios arqueológicos, geológicos e elementos arquitetônicos. 
+                            <p className="p__about"> Uma plataforma de Mixed Realities acessível, que tem a intenção difundir um acervo de imagens e vídeos 360º de elementos arqueológicos, geológicos, e arquitetônicos, pois acreditamos que é uma contribuição para educação e preservação. vocês visualizarem em 360º os sítios arqueológicos, geológicos e elementos arquitetônicos. 
                             A ideia surgiu da paixão pela Mixed Realities, ou realidade mista (MR), às vezes chamada de realidade híbrida, e poder criar a fusão de mundos real e virtual para produzir novos ambientes e visualizações onde esse mundo arqueo/geológico e digitais tivessem a chance de coexistir.
                             </p>
                             <div className="oculus">
@@ -33,13 +33,18 @@ class About extends React.Component{
                                 </div>
                                 <div>                              
                                     <a className="oculus___acss" href="https://anselm.github.io/aterrain/examples/helloworld/tile.html" target="_blank" rel="noopener noreferrer">
-                                      Acesse e faça um tour pela Realidade Virtual.
+                                      Faça um tour pela Realidade Virtual.
+                                    </a>
+                                </div>                            
+                                <div>                              
+                                    <a className="oculus___mobile" href="https://anselm.github.io/aterrain/examples/helloworld/tile.html" target="_blank" rel="noopener noreferrer">
+                                      Faça um tour pela <br/> Realidade Virtual.
                                     </a>
                                 </div>                            
                            </div>
 
                             <div className="description"> 
-                                <p>Acesse nossas mídias e compartilhe suas imagens! </p>
+                                <p className="p__description">Acesse nossas mídias e compartilhe suas imagens! </p>
 
                                  
                                  <Link to="/moreabout">
@@ -68,9 +73,9 @@ class About extends React.Component{
                         </div>
 
                         <div>
-                            <div> 
+                            <div className="imgVrabout"> 
                                 <a href="https://sketchfab.com/models/2a32a7cca3424109a54704e623d6a421" target="_blank" rel="noopener noreferrer"> <img className="img__vrockAbout" src={img} alt="Logo" /> </a>
-                                <p className="pabout" > Rolling Drone - Amigo da arqueologia (render image). <br/>
+                                <p className="pabout"> Rolling Drone - Amigo da arqueologia <br/>
                                 Clique na imagem acima para um tour arqueológico!
                                 </p>                            
                             </div>

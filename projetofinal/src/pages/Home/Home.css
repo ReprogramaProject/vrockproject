@@ -2,10 +2,27 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .home {
-    margin-top: 67px;
+   top: 67px;
 }
 
 .home__imagem {
     width: 100vw;
     height: 90vh;
+}
+
+@media (max-width: 768px) {
+    .home {
+        top: 87px;
+    }
+    .home__imagem {
+        width: 100vw;
+        height: 40vh;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .home {
+        margin-top: 107px;
+    }
 }

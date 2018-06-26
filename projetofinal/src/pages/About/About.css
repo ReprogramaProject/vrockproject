@@ -7,6 +7,19 @@
     padding-top:50px;
 }
 
+@media (max-width: 768px) {
+    .about{
+        height: 950px;
+    }
+    
+}
+@media (max-width: 450px) {
+    .about{
+        height: 1100px;
+    }
+    
+}
+
 .about__flex {
     display: flex;
     justify-content: space-around;
@@ -14,17 +27,61 @@
     padding: 40px 50px;
 }
 
+@media (max-width: 768px) {
+    .about__flex {
+        display: inline;  
+        text-align: left;
+        padding: 40px 50px;
+    }
+    
+}
+
+
 .description___about{
     width: 420px;
 }
+@media (max-width: 768px) {
+    .description___about{
+        width: 320px;
+        padding-left:30px ; 
+    }
+    .p__about{
+        width: 80vw;
+        padding-bottom: 2rem;
+
+    }
+}
+
+
+
 .img__vrockAbout{
     width: 600px;
     padding-left: 200px; 
 }
+
+@media (max-width: 768px) {
+    .img__vrockAbout{
+        width: 75vw;
+        height: 40vh;
+        padding-left:30px ; 
+    }
+}
+
 .pabout{
     padding-left: 200px; 
 
 }
+
+
+@media (max-width: 768px) {
+    .pabout{
+        padding-left: 50px;
+        width: 320px; 
+        font-size: 14px;   
+    }
+}
+
+
 
 .socialmedia___list{
     cursor: pointer;
@@ -44,13 +101,56 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .oculus{
+        display: flex;
+        flex-wrap: wrap;
+    }
+                
+}
+.oculus___link{
+    margin-right: 20px;
+}
+
 .oculus___acss{
     list-style: none;
     text-decoration: none;
     color:  #181817;
     padding: 5px 10px;
 }
+
+.oculus___mobile{
+    list-style: none;
+    text-decoration: none;
+    color: #181817;
+    font-size: 16px;
+    
+}
+
+@media (min-width: 768px) {
+    .oculus___mobile{
+        display: none;
+        
+    }
+                
+}
+
+
+@media (max-width: 768px) {
+    .oculus___acss{
+        display: none;
+        
+                
+            }
+    .p__description{
+        display: none;
+    }
+}
+
 .oculus___acss:hover {
+    background-color: #d0e22b;
+}
+.oculus___mobile:hover {
     background-color: #d0e22b;
 }
 
@@ -65,9 +165,12 @@
   padding: 8px 23px 5px 23px;
   text-decoration: none;
   margin-left: -3px;
+  margin-top: 20px;
 }
 
 .botao>a:hover {
   background: #dbb296;
   text-decoration: none;
 }
+
+

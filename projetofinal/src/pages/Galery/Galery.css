@@ -2,7 +2,6 @@
     position: relative;
     top: 15px;
     left: 0;
-    /* height: 300px; */
     text-align: center;
     padding-top:50px;
     background-color: rgb(208, 226, 43);
@@ -16,9 +15,24 @@
     padding: 50px 50px;
 }
 
+
 .galeria__vrock{
     width: 400px; 
     padding: 20px 20px;
 
 }
  
+
+
+@media (max-width: 768px) {
+    .galery___flex{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+    }
+    .galeria__vrock{
+        width: 20vw;
+        height: 70vh;
+    }
+    
+}

@@ -7,7 +7,7 @@
     color: #5f5f59;
  }
 .footer___align{
-    padding-left:450px;
+    padding-left:400px;
 }
 
 
@@ -15,11 +15,35 @@
     cursor: pointer;
     display: flex;
     list-style: none; 
-    padding-left:200px;   
+    padding-left:250px;   
 }
 
 .media__link > a{    
     padding-right:10px;
     font-size: 30px; 
     color: #5f5f59;
+}
+
+@media (max-width: 768px) {
+
+    .footer{
+        height: 30vh;       
+        padding-top:50px;
+     }
+    .footer___align{
+        padding-left:0px;
+    }
+    .footer___align, p{
+        padding-left:5vw;
+    }
+    
+     .footer___list{
+        padding-left:30vw;   
+    }
+    
+    .media__link > a{    
+        padding-right:15px;
+        font-size: 30px; 
+
+    }
 }

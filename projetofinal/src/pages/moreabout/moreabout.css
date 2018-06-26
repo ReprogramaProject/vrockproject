@@ -1,14 +1,13 @@
 
 .moreabout{
-    top: 30px;
-    text-align: center;
-    text-decoration: none;
+    top: 30px;  
  }
 
 .img_moreabout{
     width: 400px;
     padding: 90px 50px 90px 180px;
 }
+
 
 .manifesto{
     display: flex;
@@ -22,29 +21,47 @@
    }
 
 
+
+   @media (max-width: 600px) {
+    .img_moreabout{
+        width: 90vw;
+        height: 70vh;
+        padding: 50px 10px 10px 0px;
+    }
+    .manifesto{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .manifesmanifesto___paragrafo, p{
+        width: 80vw;
+       }
+}
+
+
+
 .chamada{
     width: 600px;
     padding: 0px 500px 30px 350px;
     color: #5f5f59;
 }
-
-
-.chamada2{
-    width: 800px;
-    padding: 30px 400px 150px 280px;
-    color: #5f5f59;
+@media (max-width: 600px) {
+    .chamada, h1, h2{
+        width: 80vw;
+        padding: 5px 10px;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+        
 }
-.row{
-    width: 800px;
-    margin-bottom: 60px;
-}
+
 
 .cardboxMabout{
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: right;
-    
 }
 
 .img_gcardMabout{
@@ -52,5 +69,66 @@
 }
 .cardboxMabout{
 padding-left: 150px; 
+}
+
+
+@media (max-width: 768px) {
+    
+    .cardboxMabout{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80vw;
+    }
+
+    .img_gcardMabout{
+      width: 80vw;
+    }
+    .img_gcardMabout,h2{
+        padding-right: 250px;
+        width: 80vw;
+        margin-top: 60px;
+    }
+    .cardboxMabout{
+    padding-left: 150px; 
+    }
+    
+    .oculusMabout___link{
+        padding-left: 10vw; 
+
+    }
+
+    
+}
+
+
+
+.oculusMabout{
+    display: flex;
+    align-items: center;
+}
+
+oculusMabout,a{
+    margin-left: 20px;
+}
+.oculusMabout___acss{
+    list-style: none;
+    text-decoration: none;
+    color:  #181817;
+    padding: 5px 0px;
+}
+.oculusMabout___acss:hover {
+    background-color: #d0e22b;
+}
+
+
+@media (max-width: 768px) {
+    .oculusMabout{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-left: -40px;
+    }
+    
 }
 

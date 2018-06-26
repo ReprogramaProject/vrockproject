@@ -14,7 +14,7 @@ function Menu(props) {
             
             <ul className="menu__links">                 
                 <li className="menu__stubborn"><Link to="/"> <a>Home</a> </Link></li>
-                <li className="menu__stubborn"><Link to="/moreabout"> <a>Saiba Mais</a> </Link></li>
+                <li className="menu__stubborn"><Link to="/moreabout"> <a>SaibaMais</a> </Link></li>
                 <li className="menu__stubborn"><Link to="/acervo"> <a>Galeria</a> </Link></li>
    
             </ul>
